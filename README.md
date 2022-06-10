@@ -1,2 +1,2 @@
 # Petopia-Pet-App
-Petopia is a pet app
+Petopia is a pet app. Android studio, firebase
