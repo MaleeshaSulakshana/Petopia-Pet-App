@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "959091071250",
+    "firebase_url": "https://petopia-b273c-default-rtdb.firebaseio.com",
+    "project_id": "petopia-b273c",
+    "storage_bucket": "petopia-b273c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959091071250:android:16097ea11d22227fd77bcb",
+        "android_client_info": {
+          "package_name": "com.example.petopia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959091071250-vr7gp9fbf31k3sqbour5p4q399avg4cv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3rGTw5EQbTMEMdX6-PkoqK462jvCeoYY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959091071250-vr7gp9fbf31k3sqbour5p4q399avg4cv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

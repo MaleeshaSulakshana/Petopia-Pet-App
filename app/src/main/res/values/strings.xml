@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Petopia</string>
+
+    <string name="welcome">Welcome to Petopia</string>
+    <string name="start">Start</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="back">Back</string>
+
+    <string name="dog">Dog</string>
+    <string name="cat">Cat</string>
+    <string name="bird">Bird</string>
+
+    <string name="profile">Profile</string>
+    <string name="update">Update</string>
+    <string name="remove">Remove</string>
+    <string name="psw_change">Password Change</string>
+
+    <string name="doctor">Doctor Details</string>
+    <string name="appointment">Add Appointment</string>
+    <string name="teach">Teach your dog(Special)</string>
+    <string name="pharmacy">Pharmacy</string>
+
+    <string name="post_moment">Post New Moment</string>
+    <string name="add_food">Add Food Item</string>
+
+</resources>

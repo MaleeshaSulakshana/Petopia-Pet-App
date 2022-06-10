@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.petopia">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.Camera" />
+    <uses-feature android:name="android.hardware.Camera.autofocus" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pet_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/pet_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Petopia">
+        <activity android:name=".FoodProducts.ViewUserFoodProductsActivity"></activity>
+        <activity android:name=".PetCare.DoctorsActivity" />
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".PetCare.TeachDetailsActivity" />
+        <activity android:name=".PetCare.PharmacyActivity" />
+        <activity android:name=".PetCare.TeachYourDogDashboardActivity" />
+        <activity android:name=".PetCare.PetCareDashboardActivity" />
+        <activity android:name=".PetCare.ViewAppointmentDetailsActivity" />
+        <activity android:name=".PetCare.ViewAllAppointmentActivity" />
+        <activity android:name=".PetCare.AddAppointmentActivity" />
+        <activity android:name=".Moments.UserViewBlogPostDetailsActivity" />
+        <activity android:name=".Moments.UserAllBlogPostActivity" />
+        <activity android:name=".Moments.ViewBlogPostDetailsActivity" />
+        <activity android:name=".Moments.ViewBlogPostActivity" />
+        <activity android:name=".Moments.AddBlogPostActivity" />
+        <activity android:name=".FoodProducts.EditFoodProductActivity" />
+        <activity android:name=".FoodProducts.AddFoodProductActivity" />
+        <activity android:name=".FoodProducts.FoodProductDetailsActivity" />
+        <activity android:name=".FoodProducts.FoodProductDashboardActivity" />
+        <activity android:name=".Profile.PswChangeActivity" />
+        <activity android:name=".Profile.ProfileActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
